@@ -1,0 +1,26 @@
+1. abstract class -> not a complete data abstraction
+2. interface -> 100% data abstraction
+
+abstract method()-> is a method, but it will not have any implementation 
+
+abstract return type method(arguments);
+
+if any class contains an abstract method then it is an abstract class
+
+interface -> data abstraction and multiple inheritance
+
+interface interface_name{
+    data members;
+    member functions(all the members functions must be abstract methods (not having any implementation))
+}
+
+static method and default method
+
+packages and sub packages
+
+packages -> to identify similar class and are organized in a place called structure(folder)
+
+import java.util.Scanner; -> system defined packages
+
+user defined packages
+eg. let us have math as a package where addition is a class, subtraction is a class, similarly multiplication and division
